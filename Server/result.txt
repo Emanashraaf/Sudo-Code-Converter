@@ -1,0 +1,4 @@
+Fahrenheit = []
+for Celsius in range (0,20) :
+   Fahrenheit[Celsius] = Celsius * 9/5 + 32
+   print ( Celsius, ' = ', Fahrenheit[Celsius] )

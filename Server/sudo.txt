@@ -1,0 +1,6 @@
+initialize Fahrenheit to zero
+for Celsius = 0 to 19 do
+Fahrenheit[Celsius] = Celsius * 9/5 + 32
+
+print Celsius, ' = ', Fahrenheit[Celsius]
+endfor
