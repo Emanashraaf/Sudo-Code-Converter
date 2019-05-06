@@ -4,28 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#403954"
+    android:gravity="center_horizontal|center_vertical"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/code" />
-
-    <!--Button to capture image-->
-    <Button
-        android:id="@+id/upload_image"
-        style="@style/Base.Widget.AppCompat.Button.Colored"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="63dp"
-        android:text="Upload Image" />
+        android:src="@drawable/logo" />
 
 </RelativeLayout>

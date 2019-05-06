@@ -1,1 +1,0 @@
-c.send(bytes('Celsius, ' = ', Fahrenheit[Celsius]', 'utf-8')) 
